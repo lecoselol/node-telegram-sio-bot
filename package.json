@@ -22,6 +22,7 @@
   "author": "Francesco Pontillo <francescopontillo@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "express": "^4.13.4",
     "fbgraph": "^1.1.0",
     "lodash": "^4.6.1",
     "node-telegram-bot": "^0.1.9",

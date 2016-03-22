@@ -16,6 +16,7 @@ The bot can be configured with the following environment variables:
 * `TELEGRAM_SIO_DAILY_BOT_FACEBOOK_APP_ID` with a Facebook app ID
 * `TELEGRAM_SIO_DAILY_BOT_FACEBOOK_APP_SECRET` with a Facebook app secret
 * `TELEGRAM_SIO_DAILY_BOT_TELEGRAM_TOKEN` with the Telegram bot token
+* `PORT` with the port to use for the Web Server
 
 ### JSON config file
 
@@ -30,7 +31,8 @@ Configuration can be provided in development mode with a `config.json` file (see
   },
   "telegram": {
     "token": "telegram-bot-token"
-  }
+  },
+  "port": 3000
 }
 ```
 
