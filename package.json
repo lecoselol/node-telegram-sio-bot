@@ -1,0 +1,33 @@
+{
+  "name": "telegram-sio-daily-bot",
+  "version": "0.0.1",
+  "description": "Telegram Bot for daily Sio comic strips",
+  "main": "lib/app.js",
+  "bin": {
+    "telegram-sio-daily-bot": "bin/telegram-sio-daily-bot.js"
+  },
+  "scripts": {
+    "start": "node bin/telegram-sio-daily-bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sio",
+    "scottecs",
+    "banana",
+    "ahahahahlol",
+    "boppo",
+    "roborto"
+  ],
+  "author": "Francesco Pontillo <francescopontillo@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fbgraph": "^1.1.0",
+    "lodash": "^4.6.1",
+    "node-telegram-bot": "^0.1.9",
+    "rx": "^4.1.0"
+  },
+  "engines": {
+    "node": "5.1.0"
+  }
+}
