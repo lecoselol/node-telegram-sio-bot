@@ -1,0 +1,10 @@
+{
+  "facebook": {
+    "appId": "fb-app-id",
+    "appSecret": "fb-app-secret"
+  },
+  "telegram": {
+    "token": "telegram-token-lol"
+  },
+  "port": 1337
+}
