@@ -1,6 +1,6 @@
 {
   "name": "telegram-sio-daily-bot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Telegram Bot for daily Sio comic strips",
   "main": "lib/app.js",
   "bin": {
