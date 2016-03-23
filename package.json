@@ -7,7 +7,8 @@
     "telegram-sio-daily-bot": "bin/telegram-sio-daily-bot.js"
   },
   "scripts": {
-    "start": "node bin/telegram-sio-daily-bot.js"
+    "start": "node bin/telegram-sio-daily-bot.js",
+    "deploy": "gcloud preview app deploy"  
   },
   "keywords": [
     "telegram",
