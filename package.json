@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node bin/telegram-sio-daily-bot.js",
-    "deploy": "gcloud preview app deploy"  
+    "deploy": "gcloud preview app deploy"
   },
   "keywords": [
     "telegram",
@@ -25,6 +25,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "fbgraph": "^1.1.0",
+    "ioredis": "^1.15.1",
     "lodash": "^4.6.1",
     "node-telegram-bot": "^0.1.9",
     "rx": "^4.1.0"
