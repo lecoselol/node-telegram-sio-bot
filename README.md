@@ -39,7 +39,7 @@ Configuration can be provided in development mode with a `config.json` file (see
   "redis": {
     "host": "redis-host",
     "port": "redis-port",
-    "password: "redis-password"
+    "password": "redis-password"
   },
   "port": 3000
 }
