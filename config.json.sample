@@ -6,5 +6,10 @@
   "telegram": {
     "token": "telegram-token-lol"
   },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "password": "sup3rs3kr3t"
+  },
   "port": 1337
 }
