@@ -1,14 +1,18 @@
 {
   "name": "telegram-sio-daily-bot",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Telegram Bot for daily Sio comic strips",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lecoselol/node-telegram-sio-bot.git"
+  },
   "main": "lib/app.js",
   "bin": {
     "telegram-sio-daily-bot": "bin/telegram-sio-daily-bot.js"
   },
   "scripts": {
     "start": "node bin/telegram-sio-daily-bot.js",
-    "deploy": "gcloud preview app deploy"
+    "deploy": "gcloud-nodejs-deploy"
   },
   "keywords": [
     "telegram",
